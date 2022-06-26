@@ -19,7 +19,6 @@ func main() {
 	if scanner.Scan() {
 		input = scanner.Text()
 	}
-	fmt.Println(input)
 
 	// slice that stores the result of the conversion
 	var result []string
